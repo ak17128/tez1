@@ -1,0 +1,40 @@
+      .sidenab-bgc{
+        background-color: #f3f2f2;
+;
+      }
+      .sidenav {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidenav li {
+            margin: 10px 0;
+        }
+        .sidenav li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+            padding: 8px 16px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .sidenav li a:hover{
+            background-color: #e9dfdf !important;
+            color: #000 !important;
+            border-radius: 5px !important;
+        }
+        .active{
+          background-color: #e9dfdf !important;
+          color: #000 !important;
+          border-radius: 5px !important;
+        }
+        #loader {
+           display: none;
+           position: fixed;
+           top: 30%; !important;
+           left: 50%; !important;
+         }
+         .adcc{
+           display: flex;
+           justify-content: space-between;
+         }
